@@ -14,15 +14,16 @@ y posteriormente genere su correspondiente **código intermedio de tres direccio
 ## 🧩 Etapas del proceso
 
 1. **Entrada de la expresión infija**  
-   El usuario introduce una expresión, por ejemplo:  
+   El usuario introduce una expresión, por ejemplo: **a + b * c** 
 
 2. **Conversión a notación postfija (Polaca inversa)**  
 El programa convierte la expresión para facilitar la generación del código intermedio.  
-Ejemplo: a + b * c
+Ejemplo: **a b c * +**
 
 3. **Generación del código intermedio de tres direcciones**  
 A partir de la forma postfija, se genera el código temporal:  
-a b c * +
+- **t1 = b * c**
+- **t2 = a + t1**
 ---
 
 ## Capturas del programa
