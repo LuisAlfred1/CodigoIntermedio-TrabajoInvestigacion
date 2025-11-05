@@ -30,9 +30,9 @@ A partir de la forma postfija, se genera el código temporal:
 
 | Id | Etapa | Descripción | Imagen |
 |:----|:------|:-------------|:-------|
-| 1️ |Entrada de la expresión** | El usuario ingresa la expresión infija. | ![img.png](img.png) |
-| 2️ |Conversión a postfija** | Se transforma la expresión a notación postfija. | ![img_1.png](img_1.png) |
-| 3️ |Generación del código intermedio** | Se crea el código de tres direcciones. | ![img_2.png](img_2.png) |
+| 1️ |Entrada de la expresión | El usuario ingresa la expresión infija. | ![img.png](img.png) |
+| 2️ |Conversión a postfija | Se transforma la expresión a notación postfija. | ![img_1.png](img_1.png) |
+| 3️ |Generación del código intermedio | Se crea el código de tres direcciones. | ![img_2.png](img_2.png) |
 
 
 
