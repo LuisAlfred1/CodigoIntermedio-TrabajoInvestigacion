@@ -89,9 +89,11 @@ int main() {
     cout << "Ingresa una expresion: ";
     getline(cin, expresion);
 
+    //Llamamos la función para convertir la expresión a postfija(es decir, lo operadores van después de los operandos)
     string postfija = infijaAPostfija(expresion);
     cout << "Expresion postfija: " << postfija << endl;
 
+    //Una vez convertida la expresión a postifja, -> generamos el codigo intermedio.
     cout << "\nCodigo intermedio de tres direcciones:\n";
     generarCodigoTresDirecciones(postfija);
 
